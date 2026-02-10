@@ -20,11 +20,27 @@ public class Arrays2dB {
             }
         }
 
+        //Logic for transpose of matrix
+        boolean[][] transpose = new boolean[n][m];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                transpose[j][i] = arr[i][j];
+            }
+        }
+
         // Print
         System.out.println("2D array is: ");
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+        System.out.println("Transpose of 2D array is: ");
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                System.out.print(transpose[i][j] + " ");
             }
             System.out.println();
         }
