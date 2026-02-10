@@ -14,7 +14,7 @@ public class Arrays2d {
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                System.out.println("Enter value at " + i + " " + j + " index");
+                System.out.print("Enter value at " + i + " " + j + " index");
                 arr[i][j] = sc.nextInt();
             }
         }
