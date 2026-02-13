@@ -9,6 +9,6 @@ public class MethodsA {
     public static void main(String[] args) {
         System.err.println("Hii !");
         display(); // method call
-        s\System.err.println("Bye");
+        System.err.println("Bye");
     }
 }
