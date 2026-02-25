@@ -1,15 +1,15 @@
 package Constructors;
 
-Class Student{
+class Student {
     int id;
     String name;
 
-    // Non parameterized constructor : it is a constructor which does not take any parameters and initialize the data members of the class with default values
-    Student(){
+    // Non parameterized constructor : it is a constructor which does not take any
+    // parameters and initialize the data members of the class with default values
+    Student() {
         System.out.println("Constructor is called");
     }
 }
-
 
 public class ConstructorC {
     public static void main(String[] args) {
