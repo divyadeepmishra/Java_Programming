@@ -3,7 +3,7 @@
 package Methods;
 
 public class MethodOverloading {
-    
+
     public static int sum(int a, int b) {
         return a + b;
     }
@@ -16,5 +16,4 @@ public class MethodOverloading {
         int result = sum(2, 3);
         System.out.println("Result is: " + result);
     }
-
 }
